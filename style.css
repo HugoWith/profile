@@ -1,0 +1,146 @@
+body{
+  background-color: #FCF4F6 ;
+  font-family: anton, arial ;
+  color: #612940 ;
+  font-size: 12px ;
+  line-height: normal;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+h1 {
+  font-family: amatic, arial;
+  font-size: 60px;
+  color: #0F110C ;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #CECCCC ;
+  font-family: roboto, arial ;
+  text-align: center;
+}
+
+
+.liste {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.liste > li {
+  color: #612940;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.liste > li :hover {
+  display: inline-block;
+  color: #351623;
+  font-weight: bold;
+  font-size: 28px;
+  transition-duration:0.3s;
+}
+
+#WE {
+  color: #612940;
+  text-decoration:none;
+}
+
+#WE :hover {
+  color: #351623;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.fab {
+  color: #612940;
+}
+
+
+#description {
+  color: #612940;
+  font-family: anton, arial;
+  font-size: 16px;
+}
+
+@media (max-width: 1300px){
+.container {
+  width: 948px;
+  margin: auto;
+}
+}
+
+@media (max-width: 960px){
+.container {
+  width: 700px;
+  margin: auto;
+}
+}
+
+@media (max-width: 700px){
+.container {
+  width: 500px;
+  margin: auto;
+}
+}
+
+@media (max-width: 540px){
+.container {
+  width: 300px;
+  margin: auto;
+
+}
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 6px 6px 6px #828282;
+  margin: 15px;
+  padding-top: 5px;
+}
+
+#card2 {
+  box-shadow: 6px 6px 6px #2B3A2A;
+}
+
+
+img {
+  transition: filter .5s ease-in-out;
+  margin-top: 10px;
+  display: block;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #FCF4F6;
+  border: 1px solid #CECCCC ;
+  margin-bottom: 10px;
+  font-family: anton, arial;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.button :hover {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid white;
+  font-size: 14px;
+  font-family: anton, arial;
+  font-weight: lighter;
+  transition-duration:0.3s;
+}
+
+
+
